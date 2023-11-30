@@ -1,0 +1,15 @@
+program tipe_string;
+uses crt;
+var
+  a:ansistring;
+begin;
+  clrscr;
+  a:='Pascal diambil dari nama matematika perancis abad pertengahan,'+
+     'Blaise Pascal. Bahasa Pascal dikembangkan oleh Niklaus Wirth pada '+
+     'tahun 1970, dan populer digunakan pada era 1970 hingga awal 1990an.'+
+     'Dari awal dikembangkan, Pascal dikembankan untuk keperluan akademik.'+
+     'Atas alasann itu pula Pascal masih di gunakan di berbagai sekolah dan' +
+     'universiatas di seuluruh dunia(termasuk Indonesia)';
+  writeln(a);
+  readln;
+end.

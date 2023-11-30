@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <a href="index.html">&laquo; Kembali ke halaman utama</a>
+    <h1>Registrasi Kursus</h1>
+    <p>Masukan data dengan lengkap :</p>
+    <form action="">
+        <table border="1px" cellspacing="0" cellpadding="8" width="550px">
+            <thead>
+                <td colspan="2">
+                    <h3>Biodata :</h3>
+                </td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nama Lengkap :</td>
+                    <td><input type="text" placeholder="nama lengkap"></td>
+                </tr>
+                <tr>
+                    <td>Tempat, Tanggal Lahir :</td>
+                    <td>
+                        <input type="text" placeholder="tempat lahir">
+                        <input type="date" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Telepon/Email :</td>
+                    <td>
+                        <input type="tel" placeholder="0812345890">
+                        <input type="email" placeholder="email@email.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin :</td>
+                    <td>
+                        <input type="radio" value="Pria">Pria</input>
+                        <input type="radio" value="Wanita">Wanita</input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Perkerjaan :</td>
+                    <td>
+                        <select name="perkerjaan">
+                            <option value=""> - pilih perkerjaan - </option>
+                            <option value="Guru"> guru </option>
+                            <option value="Petani"> Petani </option>
+                            <option value="PNS"> PNS </option>
+                            <option value="Pedagang"> Pedagang </option>
+                            <option value="Penjahit"> Penjahit </option>
+                            <option value="Tukang Urut"> Tukang Urut </option>
+                            <option value="Dosen"> Dosen </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h3>Materi Kursus :</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Materi Kursus :</td>
+                    <td>
+                        <input type="checkbox">Aplikasi Office</input>
+                        <input type="checkbox">Pemrograman Web</input><br>
+                        <input type="checkbox">Android</input>
+                        <input type="checkbox">Desain Grafis</input>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="2">
+                    <button>Simpan</button>
+                    <button>Reset</button>
+                </td>
+            </tfoot>
+        </table>
+    </form>
+</body>
+
+</html>

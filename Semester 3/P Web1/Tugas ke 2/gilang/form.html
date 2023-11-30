@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .header {
+            font-weight: bold;
+            font-size: 28px;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html"><< Kembali ke halaman utama</a>
+    <h1>Registrasi Kursus</h1>
+    <p>Masukan data dengan lengkap :</p>
+    <form>
+        <table border="2px" width="600px">
+            <td colspan="2">
+                <p class="header">Biodata :</p>
+            </td>
+            <tr>
+                <td>Nama Lengkap :</td>
+                <td><input type="text" placeholder="nama lengkap"></td>
+            </tr>
+            <tr>
+                <td>Tempat, Tanggal Lahir :</td>
+                <td>
+                    <input type="text" placeholder="tempat lahir">
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>Telepon/Email :</td>
+                <td>
+                    <input type="text" placeholder="0812345890">
+                    <input type="text" placeholder="email@email.com">
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin :</td>
+                <td>
+                    <input type="radio">Pria</input>
+                    <input type="radio">Wanita</input>
+                </td>
+            </tr>
+            <tr>
+                <td>Perkerjaan :</td>
+                <td>
+                    <select name="perkerjaan">
+                        <option value=""> - pilih perkerjaan - </option>
+                        <option value="Proplayer"> Proplayer </option>
+                        <option value="Pedagang"> Pedagang </option>
+                        <option value="Lainnya"> Lainnya </option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p class="header">Materi Kursus :</p>
+                </td>
+            </tr>
+            <tr>
+                <td>Materi Kursus :</td>
+                <td>
+                    <input type="checkbox">Aplikasi Office</input>
+                    <input type="checkbox">Pemrograman Web</input><br>
+                    <input type="checkbox">Android</input>
+                    <input type="checkbox">Desain Grafis</input>
+                </td>
+            </tr>
+            <td colspan="2">
+                <input type="submit" value="simpan">
+                <input type="reset" value="reset">
+            </td>
+        </table>
+    </form>
+</body>
+
+</html>
