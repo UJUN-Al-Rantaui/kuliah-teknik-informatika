@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, Sans-Serif;
+}
+
+.fb {
+      border-radius: 24px;
+      background-color :#033abc ; 
+      margin: 8px;
+      padding : 15px 30px; 
+      text-decoration : none; 
+      color : #ffffff;
+      box-shadow: #969696 2px 4px 8px;
+    }
+    
+.tw {
+      border-radius: 24px;
+      background-color :#7dcdfaf7 ; 
+      margin: 8px;
+      padding : 15px 30px; 
+      text-decoration : none; 
+      color : #ffffff;
+      box-shadow: #969696 2px 4px 8px;
+    }
+    
+.ig {
+      border-radius: 24px;
+      background-color :#951dfff4 ; 
+      margin: 8px;
+      padding : 15px 30px; 
+      text-decoration : none; 
+      color : #ffffff;
+      box-shadow: #969696 2px 4px 8px;
+
+    }
+    
+h1 {
+  color :  #bc0303f1;
+}

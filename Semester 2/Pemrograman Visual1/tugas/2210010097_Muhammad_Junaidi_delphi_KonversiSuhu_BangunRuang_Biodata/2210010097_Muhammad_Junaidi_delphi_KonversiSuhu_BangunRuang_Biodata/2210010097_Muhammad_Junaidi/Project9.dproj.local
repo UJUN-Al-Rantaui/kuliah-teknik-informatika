@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/02 16:19:02.000.212,=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2023/05/02 16:19:31.000.646,=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2023/05/02 16:20:27.000.325,C:\Users\abdwa\Dokumen\Ujun\1\Unit7.dfm=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Unit7.dfm</Transaction>
+    <Transaction>2023/05/02 16:20:27.000.325,C:\Users\abdwa\Dokumen\Ujun\1\Unit7.pas=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2023/05/02 16:20:29.000.903,C:\Users\abdwa\Dokumen\Ujun\1\Project9.dproj=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Project9.dproj</Transaction>
+    <Transaction>2023/05/02 16:20:29.000.253,C:\Users\abdwa\Dokumen\Ujun\1\Unit8.dfm=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Unit8.dfm</Transaction>
+    <Transaction>2023/05/02 16:20:29.000.253,C:\Users\abdwa\Dokumen\Ujun\1\Unit8.pas=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2023/05/02 16:34:09.000.868,=C:\Users\abdwa\Dokumen\Ujun\1\Unit2.pas</Transaction>
+    <Transaction>2023/05/02 16:34:17.000.076,=C:\Users\abdwa\Dokumen\Ujun\1\Unit3.pas</Transaction>
+    <Transaction>2023/05/02 16:36:11.000.674,C:\Users\abdwa\Dokumen\Ujun\1\Unit1.dfm=C:\Users\abdwa\Dokumen\Ujun\1\Unit7.dfm</Transaction>
+    <Transaction>2023/05/02 16:36:11.000.674,C:\Users\abdwa\Dokumen\Ujun\1\Unit1.pas=C:\Users\abdwa\Dokumen\Ujun\1\Unit7.pas</Transaction>
+    <Transaction>2023/05/02 16:36:30.000.359,C:\Users\abdwa\Dokumen\Ujun\1\Unit4.pas=C:\Users\abdwa\Dokumen\Ujun\1\Unit8.pas</Transaction>
+    <Transaction>2023/05/02 16:36:30.000.359,C:\Users\abdwa\Dokumen\Ujun\1\Unit4.dfm=C:\Users\abdwa\Dokumen\Ujun\1\Unit8.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

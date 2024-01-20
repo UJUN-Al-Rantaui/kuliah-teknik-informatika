@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 8</title>
+</head>
+<body>
+    <h1 style="background-color: red;" align="center">Membuat Form</h1>
+
+    <form action="">
+        <label for="firstName">First Name :</label>
+        <input type="text" name="firstName">
+        
+        <br><br>
+
+        <label for="lastName">Last Name :</label>
+        <input type="text" name="lastName">
+
+        <br><br>
+
+        <label for="alamat">Alamat :</label>
+        <textarea name="alamat" cols="20" rows="3"></textarea>
+
+        <br><br>
+
+        <label for="gender">Gender :</label>
+        <input type="radio" name="gender" value="Male">
+        <input type="radio" name="gender" value="Female">
+
+        <br><br>
+
+        <label for="jurusan">Jurusan :</label>
+        <input type="radio" name="jurusan" value="TI">
+        <input type="radio" name="jurusan" value="SI">
+
+        <br><br>
+
+        <label for="syarat">Kelengkapan :</label>
+        <input type="checkbox" name="syarat1">KTP
+        <input type="checkbox" name="syarat2">SIM
+        <input type="checkbox" name="syarat3">SKCK
+
+        <br><br>
+
+        <label for="jurusan2">Jurusan :</label>
+        <select name="jurusan">
+            <option value="-">- Pilih Jurusan -</option>
+            <option value="TI">Teknik Informatika</option>
+            <option value="SI">Sistem Informasi</option>
+        </select>
+
+        <br><br>
+
+        <label for="tanggal">Tanggal :</label>
+        <input type="date" name="tanggal1">
+        <input type="datetime" name="tanggal2">
+        <input type="datetime-local" name="tanggal3">
+
+    </form>
+    
+    <hr>
+
+    <h1>FORM LOGIN</h1>
+    <form action="">
+        <label for="username">username :</label>
+        <input type="email" name="email" required>
+    
+        <br><br>
+    
+        <label for="password">Password :</label>
+        <input type="password" name="Password" required>
+    
+        <br><br>
+    
+        <input type="submit" value="Login">
+
+    </form>
+
+</body>
+</html>

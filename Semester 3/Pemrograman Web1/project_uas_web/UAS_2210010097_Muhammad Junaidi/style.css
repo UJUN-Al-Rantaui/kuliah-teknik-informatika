@@ -1,0 +1,200 @@
+:root {
+    --warna-utama: #1dabec;
+}
+
+body {
+    background-color: silver;
+}
+
+.text-mymain-color {
+    color : var(--warna-utama);
+}
+
+.bg-mymain-color {
+    background-color : var(--warna-utama);
+}
+
+a {
+    color: black;
+}
+
+.nav-left-icons{
+    cursor: pointer;
+    color: var(--warna-utama);
+}
+
+.nav-right-icons {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.nav-right-icons:hover {
+    transition: ease-in-out 0.5s 0.2s;
+    background-color: var(--warna-utama);
+}
+
+section:not(.first-section) {
+    margin-top: 12vh;
+}
+
+.biodata {
+    background-image: url("img/Ppt\ City\ Gray\ Minimalist\ Background\,\ Ppt\,\ Ppt\ Background\,\ Ppt\ Cover\ Background\ Image\ And\ Wallpaper\ for\ Free\ Download.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0px 0px 2em 2em;
+    width: 100%;
+    height: 67vh;
+    /* background-color: white; */
+}
+
+.biodata img {
+    height : 100%;
+}
+
+.biodata .text-unik {
+    color: var(--warna-utama);
+}
+
+footer {
+    background-color: var(--warna-utama);
+}
+
+.social-media .title {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.card {
+    font-weight: 600;
+}
+
+.card-title {
+    font-family: tahoma;
+    font-weight: bold;
+    margin-top: 0.5em;
+    font-size: 22px;
+}
+
+.social-media .icon-social-media {
+    color: var(--warna-utama);
+    font-size: 75px;
+    text-align: center;
+}
+
+.card-body .btn{
+    font-weight: 800;
+    background-color: aliceblue;
+    width: 12em;
+}
+
+.card-body .btn:hover{
+    color: white;
+    transition: 0.3s;
+    transition-delay: 0.3s;
+    -ms-transform: rotateY(3deg);
+    transform : rotate(3deg);
+    background-color: var(--warna-utama);
+}
+
+.social-media-github{
+    font-size: small;
+}
+
+#landing-page {
+    background-image: url(img/download\ \(1\).jpg);
+    height: 520px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+    color: white;
+    padding-left: 20vh ;
+    padding-right: 20vh ;
+    text-shadow: black 0px 0px 6px;
+}
+
+.landing-page h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#landing-page .btn a{
+    background-color: var(--warna-utama);
+    padding: 8px;
+    border-radius: 2rem;
+    border: solid 2px #efefef;
+    color: white;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+#landing-page .btn a:hover {
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    color: var(--warna-utama);
+    background-color: #efefef;
+    border-color: var(--warna-utama);
+}
+
+#contact {
+    background-color: aliceblue;
+    border-radius: 0 0 12px 12px;
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+
+.contact-title {
+    color: var(--warna-utama);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#video {
+    background-image: url(img/download\ \(1\).jpg);
+    border-radius: 0 0 20px 20px;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    display: flex;
+    justify-content: center;
+}
+
+.video-title {
+    color: white;
+    font-weight: bold;
+}
+
+.video-box {
+    display: flex;
+    justify-content: center;
+}
+
+.video-box .video-saya {
+    border-radius: 12px;
+}
+
+#table {
+    background-image: url(img/download\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 0 0 20px 20px;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+#table td, #table th {
+    border: solid 1px;
+    font-size: 30px;
+    padding: 12px;
+}

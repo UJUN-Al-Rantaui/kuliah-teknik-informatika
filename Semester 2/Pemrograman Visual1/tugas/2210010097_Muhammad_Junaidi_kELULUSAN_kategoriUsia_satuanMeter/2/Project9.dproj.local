@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/09 15:05:17.000.772,=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>2023/05/09 15:16:58.000.096,=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Unit8.pas</Transaction>
+    <Transaction>2023/05/09 15:18:39.000.866,C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Unit7.pas=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\UnitMenu.pas</Transaction>
+    <Transaction>2023/05/09 15:18:39.000.866,C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Unit7.dfm=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\UnitMenu.dfm</Transaction>
+    <Transaction>2023/05/09 15:18:54.000.247,C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Unit8.dfm=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\UnitKelulusan.dfm</Transaction>
+    <Transaction>2023/05/09 15:18:54.000.247,C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Unit8.pas=C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\UnitKelulusan.pas</Transaction>
+    <Transaction>2023/05/09 16:50:48.000.976,C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\UnitMenu.dfm=C:\Users\abdwa\Dokumen\Ujun\2\UnitMenu.dfm</Transaction>
+    <Transaction>2023/05/09 16:50:48.000.976,C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\UnitMenu.pas=C:\Users\abdwa\Dokumen\Ujun\2\UnitMenu.pas</Transaction>
+    <Transaction>2023/05/09 16:51:08.000.856,C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\UnitKelulusan.pas=C:\Users\abdwa\Dokumen\Ujun\2\UnitKelulusan.pas</Transaction>
+    <Transaction>2023/05/09 16:51:08.000.856,C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\UnitKelulusan.dfm=C:\Users\abdwa\Dokumen\Ujun\2\UnitKelulusan.dfm</Transaction>
+    <Transaction>2023/05/09 16:51:12.000.134,C:\Users\abdwa\OneDrive\Documents\Embarcadero\Studio\Projects\Project9.dproj=C:\Users\abdwa\Dokumen\Ujun\2\Project9.dproj</Transaction>
+    <Transaction>2023/05/09 18:18:45.000.055,=C:\Users\abdwa\Dokumen\Ujun\2\Unit1.pas</Transaction>
+    <Transaction>2023/05/09 18:19:09.000.162,C:\Users\abdwa\Dokumen\Ujun\2\UnitKategoriUsia.dfm=C:\Users\abdwa\Dokumen\Ujun\2\Unit1.dfm</Transaction>
+    <Transaction>2023/05/09 18:19:09.000.162,C:\Users\abdwa\Dokumen\Ujun\2\UnitKategoriUsia.pas=C:\Users\abdwa\Dokumen\Ujun\2\Unit1.pas</Transaction>
+    <Transaction>2023/05/09 20:15:09.000.117,=C:\Users\abdwa\Dokumen\Ujun\2\Unit1.pas</Transaction>
+    <Transaction>2023/05/09 20:18:42.000.550,C:\Users\abdwa\Dokumen\Ujun\2\UnitMeter.dfm=C:\Users\abdwa\Dokumen\Ujun\2\Unit1.dfm</Transaction>
+    <Transaction>2023/05/09 20:18:42.000.550,C:\Users\abdwa\Dokumen\Ujun\2\UnitMeter.pas=C:\Users\abdwa\Dokumen\Ujun\2\Unit1.pas</Transaction>
+    <Transaction>2023/05/09 21:21:21.000.036,C:\Users\abdwa\Dokumen\Ujun\2\UnitSatuanMeter.dfm=C:\Users\abdwa\Dokumen\Ujun\2\UnitMeter.dfm</Transaction>
+    <Transaction>2023/05/09 21:21:21.000.036,C:\Users\abdwa\Dokumen\Ujun\2\UnitSatuanMeter.pas=C:\Users\abdwa\Dokumen\Ujun\2\UnitMeter.pas</Transaction>
+  </Transactions>
+</BorlandProject>

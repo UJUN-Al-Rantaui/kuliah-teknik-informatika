@@ -1,0 +1,17 @@
+Program tipe_real_1;
+uses crt;
+var
+  a:real;
+
+begin
+  clrscr;
+  a:=3.14;
+  writeln('a : ',a);
+
+  a:=999.99;
+  writeln('a : ',a);
+
+  a:=0.1;
+  writeln('a : ',a);
+  readln;
+end.

@@ -1,0 +1,142 @@
+program kasir;
+uses crt;
+procedure biodata;
+  const
+    nama ='Muhammad Junaidi';
+  var
+    npm   : string ='2210010097';
+    Kelas : string ='1B TI Reg BJB Pagi';
+    i,index     : integer;
+  begin
+    textcolor(14);
+    for i:=1 to 45 do
+      write('=');
+      writeln;
+    for i:=1 to 5 do
+      begin
+        write('*');
+        for index:=1 to 43 do
+          write(' ');
+        writeln('*');
+      end;
+    for i:=1 to 45 do
+      write('=');
+      writeln;
+    textcolor(9);
+    gotoxy(10,3);writeln('Nama  : ',nama);
+    gotoxy(10,4);writeln('NPM   : ',npm);
+    gotoxy(10,5);writeln('Kelas : ',kelas);
+    gotoxy(8,9);
+    textcolor(15);
+  end;
+var
+  nb,bb,td    : array[1..10] of string;
+  hb,hbb,thb : array[1..10] of int64 ;
+  jb,nbb      : array[1..10] of integer;
+  d,h,thbd    : array[1..10] of double ;
+  j           : string ;
+  th          :int64;
+  them,t,p,k  : double;
+  i,a,v,y,index,mp : integer;
+begin
+  clrscr;
+  biodata;
+  nb[1]:='Laptop'; nb[2]:='Hanphone'; nb[3]:='Keyboard';  nb[4]:='Mouse';  nb[5]:='Headphone';  nb[6]:='Monitor';  nb[7]:='Speaker'; nb[8]:='Kamera';  nb[9]:='Mikrofon'; nb[10]:='Laptop';
+  hb[1]:= 12000000; hb[2]:= 3000000  ; hb[3]:= 300000   ;  hb[4]:=120000 ;  hb[5]:=130000     ;  hb[6]:=3200000  ;  hb[7]:=2100000  ; hb[8]:=5000000 ;  hb[9]:=1700000;    hb[10]:=8000000;
+  writeln('Program Kasir');
+  writeln('  Berikut adalah daftar barang dan harga');
+  writeln('<[======================================]>');
+  gotoxy(1,12);
+  writeln('+====+=============+==============+');
+  writeln('| NO | Nama Barang | Harga Barang |');
+  writeln('+----+-------------+--------------+');
+  for i:=1 to 10 do
+  writeln('|    |             |              |');
+  writeln('+====+=============+==============+');
+  for i:=15 to 24 do begin a:=a+1; gotoxy(3,i); write(a); gotoxy(7,i); write(nb[a]); gotoxy(26,i); write(hb[a]); y:=i+3 ; end;
+  gotoxy(1,y);
+  writeln('Input Barang Belian Pelanggan');
+  for i:=1 to 10 do
+    begin
+      if j='TIDAK' then break;
+      v:=v+1;
+      writeln('Input Barang Yang KE-',i);
+      write('Nama Barang    : '); readln(bb[i]);
+      write('Harga 1 Barang : ');
+      if (bb[i]='1') or (bb[i]='2') or (bb[i]='3') or (bb[i]='4') or (bb[i]='5') or (bb[i]='6') or (bb[i]='7') or (bb[i]='8') or  (bb[i]='9') or  (bb[i]='10') then bb[i]:=nb[i];
+      for index:=1 to 10 do
+        if bb[i]=nb[index] then begin writeln(hb[index]); a:= index ; hbb[i]:=hb[index]; break; end;
+      if bb[i]=nb[a] then else writeln('INVALID INPUT');
+      write('Jumlah Beli    : '); readln(jb[i]);
+      if i=10 then break;
+      write('Masih Ada Barang Di INPUT? (YA/TIDAK)       Jawab:'); readln(j);
+    end;
+  clrscr;
+  y:=4;
+  writeln('+===+=================+===============================+=================+============+==================+===========+');
+  writeln('|NO |   Nama Barang   |   Harga Satuan   |   Jumlah   |   Total Harga   |   Diskon   |   Harga Diskon   |   Hemat   |');
+  writeln('+---+-----------------+------------------+------------+-----------------+------------+------------------+-----------+');
+  for i:=1 to v do
+  writeln('|   |                 |                  |            |                 |            |                  |           |');
+  writeln('+===+=================+==================+============+=================+============+==================+===========+');
+  for i:=1 to v do begin thb[i]:=hbb[i]*jb[i]; th:=th+thb[i]; end;
+  for i:=1 to v do
+    begin
+      if th<8000000 then td[i]:='0%' else if (th>=8000000) and (th<15000000) then begin td[i]:='5%'; d[i]:=0.05; end else if (th>=15000000) and (th<25000000) then begin td[i]:='10%'; d[i]:=0.1; end
+      else if th>=25000000 then begin td[i]:='15%' ;d[i]:=0.15; end;
+      h[i]:=thb[i]*d[i];
+      thbd[i]:=thb[i]-h[i];
+      gotoxy(3,y); write(i); gotoxy(7,y); write(bb[i]); gotoxy(25,y); write(hbb[i]); gotoxy(44,y); write(jb[i]); gotoxy(57,y); writeln(thb[i]); gotoxy(75,y); write(td[i]); gotoxy(89,y); write(thbd[i]:0:0); gotoxy(108,y); write(h[i]:0:0);
+      y:=y+1;
+    end;
+  y:=y+2;
+  gotoxy(1,y);
+  for i:=1 to v do begin them:=them+h[i]; t:=t+thbd[i]; end;
+  writeln('Total Hemat   : ',them:0:0);
+  writeln('Tagihan       : ',t:0:0);
+  write('Uang Anda      :');readln(p);
+  k:=p-t;
+  writeln('Kembalian     : ',k:0:0);
+  writeln('<[=========================PILIH-METODE-PEMBAYARAN=================================]>');
+  writeln('1. Cash');
+  writeln('2. GoPay   (CASHBACK 5%)');
+  write('Pilih metode pembayaran : '); readln(mp);
+  if mp=1 then
+  begin
+    writeln('<===================================CASH==========================================>');
+    writeln('Tagihan : ',t:0:0);
+  end;
+  if mp=2 then
+    begin
+    writeln('<===================================GoPay==========================================>');
+    k:=th*0.05;
+    them:=them+k;
+    t:=th-them;
+  //  p:=p-t;
+    writeln('CashBack : ',k:0:0);
+    writeln('Tagihan : ',t:0:0);
+    end;
+    if (mp=1) or (mp=2) then else  writeln('INPUT INVALID');
+  readln;
+end.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
